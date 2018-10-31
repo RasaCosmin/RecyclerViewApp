@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/imv_list_item_circle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+    android:background="@color/RED"/>
+
+    <ImageView
+            android:id="@+id/imv_date_and_time"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_event_black_24dp"/>
+
+    <TextView
+            style="@style/Text.Primary"
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="Cica e titlul lung pentru care se dace afisarea"/>
+
+    <TextView
+            style="@style/Text.Secondary"
+            android:id="@+id/tv_date_and_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Data de afisat"/>
+
+</android.support.constraint.ConstraintLayout>
