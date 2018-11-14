@@ -1,11 +1,11 @@
 package com.example.cosmin.recyclerviewapp.logic
 
 import android.view.View
-import com.example.cosmin.recyclerviewapp.data.DataSourceInterface
+import com.example.cosmin.recyclerviewapp.data.ListItemDao
 import com.example.cosmin.recyclerviewapp.data.ListItem
-import com.example.cosmin.recyclerviewapp.view.ViewInterface
+import com.example.cosmin.recyclerviewapp.list.ViewInterface
 
-class Controller(private var view: ViewInterface, private var dataSource: DataSourceInterface) {
+class Controller(private var view: ViewInterface, private var dataSource: ListItemDao) {
 
     private var tempListItem: ListItem? = null
     private var tempListItemPosition: Int = 0

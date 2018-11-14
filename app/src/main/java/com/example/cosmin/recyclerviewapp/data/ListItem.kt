@@ -1,3 +1,10 @@
 package com.example.cosmin.recyclerviewapp.data
 
-data class ListItem(var dateAndTime: String, var message: String, var colorResource: Int)
+import android.arch.persistence.room.Entity
+import android.arch.persistence.room.PrimaryKey
+
+@Entity
+data class ListItem(
+    @PrimaryKey var dateAndTime: String,
+    var message: String,
+    var colorResource: Int)

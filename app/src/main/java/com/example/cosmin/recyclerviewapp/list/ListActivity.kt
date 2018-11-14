@@ -1,4 +1,4 @@
-package com.example.cosmin.recyclerviewapp.view
+package com.example.cosmin.recyclerviewapp.list
 
 import android.app.ActivityOptions
 import android.content.Intent

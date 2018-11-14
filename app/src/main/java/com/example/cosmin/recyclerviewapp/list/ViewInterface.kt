@@ -1,4 +1,4 @@
-package com.example.cosmin.recyclerviewapp.view
+package com.example.cosmin.recyclerviewapp.list
 
 import android.view.View
 import com.example.cosmin.recyclerviewapp.data.ListItem

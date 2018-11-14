@@ -8,7 +8,7 @@ import java.util.*
  * Specifically a "Fake"
  */
 
-class FakeDataSource : DataSourceInterface {
+class FakeDataSource : ListItemDao {
     companion object {
         private const val SIZE_OF_COLLECTION: Int = 12
         val random = Random()

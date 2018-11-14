@@ -1,9 +1,9 @@
 package com.example.cosmin.recyclerviewapp
 
-import com.example.cosmin.recyclerviewapp.data.DataSourceInterface
+import com.example.cosmin.recyclerviewapp.data.ListItemDao
 import com.example.cosmin.recyclerviewapp.data.ListItem
 import com.example.cosmin.recyclerviewapp.logic.Controller
-import com.example.cosmin.recyclerviewapp.view.ViewInterface
+import com.example.cosmin.recyclerviewapp.list.ViewInterface
 import org.junit.Test
 
 import org.junit.Before
@@ -26,7 +26,7 @@ import java.util.ArrayList
 @RunWith(MockitoJUnitRunner::class)
 class ControllerUnitTest {
     @Mock
-    lateinit var dataSource: DataSourceInterface
+    lateinit var dataSource: ListItemDao
 
     @Mock
     lateinit var view: ViewInterface
