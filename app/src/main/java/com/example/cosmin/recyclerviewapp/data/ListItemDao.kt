@@ -10,7 +10,7 @@ interface ListItemDao {
     fun getListItems(): LiveData<MutableList<ListItem>>
 
     @Query("SELECT * FROM ListItem WHERE itemId = :itemId")
-    fun getListItemById(itemId: String)
+    fun getListItemById(itemId: String):LiveData<ListItem>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun inserListItem(listItem: ListItem): Long

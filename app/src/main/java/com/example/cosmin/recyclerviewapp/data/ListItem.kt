@@ -5,6 +5,6 @@ import android.arch.persistence.room.PrimaryKey
 
 @Entity
 data class ListItem(
-    @PrimaryKey var dateAndTime: String,
+    @PrimaryKey var itemId : String,
     var message: String,
     var colorResource: Int)
